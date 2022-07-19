@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using PlantMarket_Azure.helpers;
-
-namespace PlantMarket_Azure.cosmosdb;
+﻿namespace PlantMarket_CosmosDb;
 
 public class Program
 {

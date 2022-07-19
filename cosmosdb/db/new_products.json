@@ -1,0 +1,47 @@
+[
+  {
+    "id": "",
+    "type": 1,
+    "internalId": "p1",
+    "imageThumbnail": "https://plantmarketproducts.blob.core.windows.net/products/plant_5809.jpeg",
+    "imageLarge": "https://plantmarketproducts.blob.core.windows.net/products/plant_5809.jpeg",
+    "price": 22.22,
+    "details": [
+      {
+        "name": "Silver Dollar Vine",
+        "growPotSize": 17,
+        "light": 2
+      }
+    ]
+  },
+  {
+    "id": "",
+    "type": 1,
+    "internalId": "p2",
+    "imageThumbnail": "https://plantmarketproducts.blob.core.windows.net/products/plant_5813.jpeg",
+    "imageLarge": "https://plantmarketproducts.blob.core.windows.net/products/plant_5813.jpeg",
+    "price": 1234.2299,
+    "details": [
+      {
+        "name": "Fiddle Leaf Fig",
+        "growPotSize": 12,
+        "light": 3
+      }
+    ]
+  },
+  {
+    "id": "",
+    "type": 1,
+    "internalId": "p3",
+    "imageThumbnail": "https://plantmarketproducts.blob.core.windows.net/products/plant_5811.jpeg",
+    "imageLarge": "https://plantmarketproducts.blob.core.windows.net/products/plant_5811.jpeg",
+    "price": 0.999,
+    "details": [
+      {
+        "name": "Asparagus Fern",
+        "growPotSize": 14,
+        "light": 1
+      }
+    ]
+  }
+]

@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using PlantMarket_Azure.helpers;
 using Product = PlantMarket_Azure.helpers.Product;
 
-namespace PlantMarket_Azure.cosmosdb;
+namespace PlantMarket_CosmosDb;
 
 public class CosmosDBReader
 {
@@ -14,6 +14,7 @@ public class CosmosDBReader
         {typeof(Config),"config"},
         {typeof(PlantNames),"plantNames"},
         {typeof(Product),"products"},
+        {typeof(ProductDetail),"productDetail"},
         {typeof(Sale),"sale"},
         {typeof(SaleProduct),"saleProducts"},
         {typeof(UserInfo),"user"},

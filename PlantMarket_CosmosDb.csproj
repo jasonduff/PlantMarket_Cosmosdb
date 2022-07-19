@@ -19,7 +19,10 @@
 
     <ItemGroup>
       <None Remove="products.json" />
-      <Content Include="products.json">
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="cosmosdb\db\new_products.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
