@@ -7,14 +7,15 @@ namespace PlantMarket_CosmosDb;
 
 public static class CosmosDBWriter
 {
-    public static void AddProductsToCosmos(string filePath)
+    public static async Task AddProductsToCosmos(string filePath)
     {
         var products = ReadJSONFromFile<Product>(filePath);
 
         foreach (var product in products)
         {
+            product.Id = Guid.NewGuid().ToString();
             var logger = new Logger<Program>(new LoggerFactory());
-            var newProduct = Checkout.CreateNewProduct(product, logger);
+            var newProduct = await Checkout.CreateNewProduct(product, logger);
         }        
     }
     

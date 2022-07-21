@@ -2,10 +2,10 @@
 
 public class Program
 {
-    static public void Main(string[] args)
+    static public async Task Main(string[] args)
     {
-        //CosmosDBWriter.WriteToCosmosFromFile("./products.json", "products");
+        await CosmosDBWriter.AddProductsToCosmos("/Users/jasonduff/projects/PlantMarket_Azure/PlantMarket_Azure/PlantMarket_CosmosDb/cosmosdb/db/new_products.json");
 
-        CosmosDBReader.ReadAllFoldersFromCosmosDB();
+        // CosmosDBReader.ReadAllFoldersFromCosmosDB();
     }
 }
